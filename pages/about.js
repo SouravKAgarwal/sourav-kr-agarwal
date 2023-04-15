@@ -16,10 +16,10 @@ const About = () => {
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
-                <Image className='w-[550px] rounded-[8px]' src="/aboutme.jpg" alt="" />
+                <Image className='rounded-[8px]' src="/aboutme.jpg" width={450} height={550} alt="" />
             </div>
             <div>
-                <div className='flex item-center justify-between w-[450px] mt-4'>
+                <div className='flex item-center justify-between w-[400px] mt-4'>
                     <div className='flex flex-col gap-[4px]'>
                         <div className='flex my-2 gap-4 items-center font-medium'>
                             <FaBirthdayCake className='text-[#ec4899] text-[22px]'/>
@@ -69,7 +69,7 @@ const About = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='max-w-[750px] '>
+                <div className='max-w-[450px] '>
                     <h2 className='font-bold mt-12 mb-10'>I'm Sourav and FrontEnd Developer</h2>
                     <p className='text-[#0f172a]'>Hi! My name is Sourav Kumar Agarwal. I'm a Web Developer, and I'm very passionate and dedicated toward my work. I am very hard-working and very eager to learn new technologies.</p>
 

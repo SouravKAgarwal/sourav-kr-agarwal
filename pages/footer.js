@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='bg-[url("/footer.jpg")] bg-cover bg-center h-[200px] w-screen text-white grid place-items-center'>
+    <div className='bg-[url("/footer.jpg")] bg-cover bg-center h-[200px] w-[75] text-white grid place-items-center'>
         <div className='text-center '>
             <ul>
                 <li><h3>Quick Links</h3></li>

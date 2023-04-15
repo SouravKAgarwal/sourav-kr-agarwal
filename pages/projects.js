@@ -14,7 +14,7 @@ const Projects = () => {
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
                 <p>It is a utility which can be used to generate QR's for links,text,etc for handy sharing.</p>
                 <div className='mt-4'>
-                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
+                    <Image className='w-[500px] rounded-[5px]'width={500} height={250} src="/qr.jpg" alt=""/>
                 </div>
                 <Button link ="#" text="Click to view" />
             </div>
@@ -23,7 +23,7 @@ const Projects = () => {
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
                 <p>It is a utility which can be used to generate QR's for links,text,etc for handy sharing.</p>
                 <div className='mt-4'>
-                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
+                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" width={500} height={250} alt=""/>
                 </div>
                 <Button link ="#" text="Click to view" />
             </div>
@@ -32,7 +32,7 @@ const Projects = () => {
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
                 <p>It is a utility which can be used to generate QR's for links,text,etc for handy sharing.</p>
                 <div className='mt-4'>
-                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
+                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" width={500} height={250} alt=""/>
                 </div>
                 <Button link ="#" text="Click to view" />
             </div>
