@@ -19,7 +19,7 @@ const About = () => {
                 <Image className='rounded-[8px]' src="/aboutme.jpg" width={450} height={550} alt="" />
             </div>
             <div>
-                <div className='flex item-center justify-between w-[400px] mt-4'>
+                <div className='flex item-center justify-between w-[380px] mt-4'>
                     <div className='flex flex-col gap-[4px]'>
                         <div className='flex my-2 gap-4 items-center font-medium'>
                             <FaBirthdayCake className='text-[#ec4899] text-[22px]'/>
@@ -55,7 +55,7 @@ const About = () => {
 
                 </div>
 
-                <div className='container mx-auto flex justify-end place-items-center mt-[30px] gap-[50px] w-[100px]'>
+                <div className='container mx-auto flex justify-end place-items-center mt-[30px] gap-[50px] w-[80px]'>
                     <div className='flex gap-4 items-center font-medium'>
                         <FaGithub className='text-[black] text-[24px]'/>
                         <Link href="https://github.com/SouravKAgarwal" target='_blank'>
