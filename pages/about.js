@@ -7,6 +7,7 @@ import {FaLinkedin} from "react-icons/fa"
 import {GrMail} from "react-icons/gr"
 import {ImLocation} from "react-icons/im"
 import Button from './button'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
-                <img className='w-[550px] rounded-[8px]' src="/aboutme.jpg" alt="" />
+                <Image className='w-[550px] rounded-[8px]' src="/aboutme.jpg" alt="" />
             </div>
             <div>
                 <div className='flex item-center justify-between w-[450px] mt-4'>

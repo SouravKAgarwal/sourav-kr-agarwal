@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from './heading'
 import {GrProjects} from "react-icons/gr"
 import Button from './button'
+import Image from 'next/image'
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
                 <p>It is a utility which can be used to generate QR's for links,text,etc for handy sharing.</p>
                 <div className='mt-4'>
-                    <img className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
+                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
                 </div>
                 <Button link ="#" text="Click to view" />
             </div>
@@ -22,7 +23,7 @@ const Projects = () => {
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
                 <p>It is a utility which can be used to generate QR's for links,text,etc for handy sharing.</p>
                 <div className='mt-4'>
-                    <img className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
+                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
                 </div>
                 <Button link ="#" text="Click to view" />
             </div>
@@ -31,7 +32,7 @@ const Projects = () => {
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
                 <p>It is a utility which can be used to generate QR's for links,text,etc for handy sharing.</p>
                 <div className='mt-4'>
-                    <img className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
+                    <Image className='w-[500px] rounded-[5px]' src="/qr.jpg" alt=""/>
                 </div>
                 <Button link ="#" text="Click to view" />
             </div>
