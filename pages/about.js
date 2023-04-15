@@ -49,7 +49,7 @@ const About = () => {
                     <div className='flex flex-col gap-[22px] text-black'>
                         <div className='mt-2'>09/04/2002</div>
                         <div className='-mt-1'>Rajasthan Technical University</div>
-                        <div className=' -mt-0'>Kumarpara Panchali, Bharalumukh,<br></br> Guwahati-781009, Assam</div>
+                        <div className=' -mt-0'>Kumarpara Panchali,Bharalumukh,<br></br> Guwahati-781009, Assam</div>
                         <div>aggarwalsaurav948@gmail.com</div>
                     </div>
 
