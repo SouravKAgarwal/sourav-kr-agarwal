@@ -55,7 +55,7 @@ const About = () => {
 
                 </div>
 
-                <div className='grid grid-cols-1 mx-auto place-items-center mt-[30px] gap-[50px] w-[60px] md:w-[12px]'>
+                <div className='flex flex-cols-2 mx-auto place-items-center mt-[30px] gap-[50px] w-[220px] md:w-auto md:ml-[70px]'>
                     <div className='flex gap-4 items-center font-medium'>
                         <FaGithub className='text-[black] text-[24px]'/>
                         <Link href="https://github.com/SouravKAgarwal" target='_blank'>
