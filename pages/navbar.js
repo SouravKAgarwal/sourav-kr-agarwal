@@ -22,10 +22,10 @@ const Navbar = ({toggleSideBar}) => {
               <div className='text-[#f8fafc] hover:text-[#d4d4d8]'>Contact Me</div>
             </Link>
         </div>
-        <a href='Resume.pdf' download className='btn hidden md:flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>
+        <Link href='Resume.pdf' download className='btn hidden md:flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>
           Download CV
           <HiOutlineDownload />
-        </a>
+        </Link>
 
         <div className='md:hidden text-[24px] text-[#f8fafc] pr-4 hover:cursor-pointer' onClick={toggleSideBar}>
           <FiMenu/>
