@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from "./heading"
-import {FaBirthdayCake} from "react-icons/fa"
+import {FiSmartphone} from "react-icons/fi"
 import {FaGithub} from "react-icons/fa"
 import {FaBook} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
@@ -22,8 +22,8 @@ const About = () => {
                 <div className='flex item-center justify-between w-[380px] mt-4'>
                     <div className='flex flex-col gap-[4px]'>
                         <div className='flex my-2 gap-4 items-center font-medium'>
-                            <FaBirthdayCake className='text-[#ec4899] text-[22px]'/>
-                            Birthday
+                            <FiSmartphone className='text-blue text-[22px]'/>
+                            Phone
                         </div>
                         <div className='flex my-2 gap-4 items-center font-medium'>
                             <FaBook className='text-[#422006] text-[22px]'/>
@@ -47,7 +47,7 @@ const About = () => {
                     </div>
 
                     <div className='flex flex-col gap-[22px] text-black'>
-                        <div className='mt-2'>09/04/2002</div>
+                        <div className='mt-2'>+91-6001386472</div>
                         <div className='-mt-1'>Rajasthan Technical University</div>
                         <div className=' -mt-0'>Kumarpara Panchali,Bharalumukh,<br></br> Guwahati-781009, Assam</div>
                         <div>aggarwalsaurav948@gmail.com</div>
