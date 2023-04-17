@@ -84,12 +84,13 @@ const Contacts = () => {
             required
           />
           <input
-            type="text"
+            type="tel"
             name="phone"
             placeholder="Phone Number"
             className="inputStyle"
             value={userData.phone}
             onChange={postUserData}
+            pattern="+91-[0-9]{5}-[0-9]{5}"
             required
           />
         </div>
