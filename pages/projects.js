@@ -18,10 +18,10 @@ const Projects = () => {
                 </div>
                 <Button link ="https://tictactoe-ska.vercel.app/" text="Click to view" target="_blank" />
             </div>
-            <div className='shadow-lg flex flex-col rounded-[10px] max-height-[168px] gap-4 px-8 py-10 bg-[#64748b] text-[#f4f4f5]'>
+            <div className='shadow-lg flex flex-col rounded-[10px] gap-4 px-8 py-10 bg-[#64748b] text-[#f4f4f5]'>
                 <GrProjects className='text-[#ef4444] text-[28px]' />
                 <h2 className='font-medium text-[28px]'>QR-Generator</h2>
-                <p className='text-[16px]'>It is a utility which can be used to generate QR's for links,text,etc for handy sharing. It is very reliable, fast and easy to use. It can generate QR's for any text or URL's at a click.</p>
+                <p className='text-[16px] max-height-[168px]'>It is a utility which can be used to generate QR's for links,text,etc for handy sharing. It is very reliable, fast and easy to use. It can generate QR's for any text or URL's at a click.</p>
                 <div className='mt-4'>
                     <Image className=' justify-center align-center rounded-[8px]' src="/qr.jpg" width={500} height={250} alt=""/>
                 </div>
