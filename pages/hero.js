@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           <div className='bg-[#f59e0b] h-[4px] w-[80px] ml-4'></div>
           <div className='text-[#fffbeb] ml-4 md:text-[#020617]'>
-            <h4>My Mantra EAT...CODE...SLEEP!</h4>
+            <h3>eat();  code();  sleep();</h3>
             <Button link="#about" text="Learn More..." />
           </div>
         </div>
