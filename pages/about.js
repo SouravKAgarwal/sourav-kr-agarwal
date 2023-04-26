@@ -19,7 +19,7 @@ const About = () => {
                 <Image className='rounded-[8px] md:w-[600px]' src="/aboutme.jpg" width={500} height={750} alt="" />
             </div>
             <div>
-                <div className='flex item-center w-[370px] md:w-[450px] md:mx-[20px] justify-around mt-4'>
+                <div className='flex item-center w-[370px] md:w-[450px] md:mx-[120px] justify-around mt-4'>
                     <div className='flex flex-col gap-[4px]'>
                         <div className='flex my-2 gap-4 items-center font-medium'>
                             <FiSmartphone className='text-blue text-[22px]'/>
@@ -55,7 +55,7 @@ const About = () => {
 
                 </div>
 
-                <div className='flex flex-cols-2 justify-center items-center w-[370px] md:w-[450px] md:mx-[20px] mt-[30px] gap-[70px]'>
+                <div className='flex flex-cols-2 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]'>
                     <div className='flex gap-4 items-center font-medium'>
                         <FaGithub className='text-[black] text-[24px]'/>
                         <Link href="https://github.com/SouravKAgarwal" target='_blank'>
@@ -69,12 +69,12 @@ const About = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[20px] mt-[30px] gap-[70px]'>
+                <div className='flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]'>
                     <div className='flex gap-4 items-center text-[20px] font-medium'>
                         <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>
                     </div>
                 </div>
-                <div className='max-w-[450px] md:mx-[20px]'>
+                <div className='max-w-[450px] md:mx-[120px]'>
                     <h2 className='font-bold mt-12 mb-10'>I'm Sourav and FrontEnd Developer</h2>
                     <p className='text-[#0f172a]'>Hi! My name is Sourav Kumar Agarwal. I'm a Web Developer, and I'm very passionate and dedicated toward my work. I am very hard-working and very eager to learn new technologies.</p>
                 </div>
