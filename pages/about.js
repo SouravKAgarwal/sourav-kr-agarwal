@@ -6,7 +6,7 @@ import {FaBook} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
 import {GrMail} from "react-icons/gr"
 import {ImLocation} from "react-icons/im"
-import Button from './button'
+import {HiOutlineDownload} from 'react-icons/hi'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -19,7 +19,7 @@ const About = () => {
                 <Image className='rounded-[8px]' src="/aboutme.jpg" width={450} height={550} alt="" />
             </div>
             <div>
-                <div className='flex item-center justify-between w-[380px] mt-4'>
+                <div className='flex item-center justify-around mt-4'>
                     <div className='flex flex-col gap-[4px]'>
                         <div className='flex my-2 gap-4 items-center font-medium'>
                             <FiSmartphone className='text-blue text-[22px]'/>
@@ -55,7 +55,7 @@ const About = () => {
 
                 </div>
 
-                <div className='flex flex-cols-2 mx-auto place-items-center mt-[30px] gap-[26px] w-[220px] md:w-auto md:ml-[70px]'>
+                <div className='flex flex-cols-3 justify-around items-center mt-[30px] gap-[10px]'>
                     <div className='flex gap-4 items-center font-medium'>
                         <FaGithub className='text-[black] text-[24px]'/>
                         <Link href="https://github.com/SouravKAgarwal" target='_blank'>
@@ -68,6 +68,7 @@ const About = () => {
                         LinkedIn
                         </Link>
                     </div>
+                    <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>
                 </div>
                 <div className='max-w-[450px] '>
                     <h2 className='font-bold mt-12 mb-10'>I'm Sourav and FrontEnd Developer</h2>
