@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }
   return <>
   <Navbar toggleSideBar={toggleSideBar} />
+  <Sidebar isOpen={isOpen} toggleSideBar={toggleSideBar}/>
   <Component {...pageProps} />
   <Footer/>
   </>
