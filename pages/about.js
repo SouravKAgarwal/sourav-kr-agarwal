@@ -68,7 +68,7 @@ const About = () => {
                         LinkedIn
                         </Link>
                     </div>
-                    <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] text-[12px] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>
+                    <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] text-[15px] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>
                 </div>
                 <div className='max-w-[450px] '>
                     <h2 className='font-bold mt-12 mb-10'>I'm Sourav and FrontEnd Developer</h2>
