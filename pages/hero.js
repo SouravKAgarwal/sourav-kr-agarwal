@@ -22,9 +22,10 @@ const Hero = () => {
               }} />
             </h4>
           </div>
-          <div className='bg-[#f59e0b] h-[4px] w-[80px] ml-4'></div>
-          <div className='text-[#fffbeb] ml-4 md:text-[#020617]'>
-            <h3>eat();  code();  sleep();</h3>
+          <div className='bg-black h-[4px] w-[80px] ml-4'></div>
+          <div className='text-[#fffbeb] ml-4'>
+            <p className='text-[20px]'>“The first step towards getting somewhere is to decide you’re not going to stay where you are.”</p>
+            <p className='text-[15px] md: mt-[12px] text-end'>— John Pierpont Morgan</p>
             <Button link="#about" text="Learn More..." />
           </div>
         </div>
