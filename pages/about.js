@@ -16,7 +16,7 @@ const About = () => {
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
-                <Image className='rounded-[8px]' src="/aboutme.jpg" width={450} height={675} alt="" />
+                <Image className='rounded-[8px]' src="/aboutme.jpg" width={500} height={750} alt="" />
             </div>
             <div>
                 <div className='flex item-center w-[370px] md:w-[450px] md:mx-[120px] justify-around mt-4'>
@@ -74,7 +74,7 @@ const About = () => {
                         <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>
                     </div>
                 </div>
-                <div className='max-w-[450px] md:mx-[40px]'>
+                <div className='max-w-[450px] md:mx-[80px]'>
                     <h2 className='font-bold mt-12 mb-10'>I'm Sourav and FrontEnd Developer</h2>
                     <p className='text-[#0f172a]'>Hi! My name is Sourav Kumar Agarwal. I'm a Web Developer, and I'm very passionate and dedicated toward my work. I am very hard-working and very eager to learn new technologies.</p>
                 </div>
