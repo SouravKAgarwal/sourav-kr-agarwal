@@ -6,6 +6,7 @@ import Contacts from "./contacts"
 import Sidebar from "./sidebar"
 import { useState } from "react";
 
+
 export default function Home() {
   const [isOpen,setIsOpen] = useState(false)
 
