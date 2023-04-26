@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-      <section className='container mx-auto w-screen px-4 py-10' id="abouts">
+      <section className='container mx-auto w-screen px-4 py-10' id="about">
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
