@@ -9,16 +9,16 @@ const Navbar = ({toggleSideBar}) => {
       <div className='container mx-auto flex justify-between items-center py-4'>
         <div className='text-[24px] text-[#f8fafc] px-4 mx-0'>Sourav Kumar Agarwal</div>
           <div className='hidden md:flex gap-6'>
-            <Link href="/">
+            <Link href="#">
               <div className='text-[#f8fafc] hover:text-[#d4d4d8]'>Home</div>
             </Link>
-            <Link href="/about">
+            <Link href="#about">
               <div className='text-[#f8fafc] hover:text-[#d4d4d8]'>About Me</div>
             </Link>
-            <Link href="/projects">
+            <Link href="#projects">
               <div className='text-[#f8fafc] hover:text-[#d4d4d8]'>My Projects</div>
             </Link>
-            <Link href="/contacts">
+            <Link href="#contacts">
               <div className='text-[#f8fafc] hover:text-[#d4d4d8]'>Contact Me</div>
             </Link>
         </div>

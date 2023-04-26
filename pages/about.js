@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-      <section className='container mx-auto w-screen px-4 py-10'>
+      <section className='container mx-auto w-screen px-4 py-10' id="abouts">
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
@@ -72,8 +72,6 @@ const About = () => {
                 <div className='max-w-[450px] '>
                     <h2 className='font-bold mt-12 mb-10'>I'm Sourav and FrontEnd Developer</h2>
                     <p className='text-[#0f172a]'>Hi! My name is Sourav Kumar Agarwal. I'm a Web Developer, and I'm very passionate and dedicated toward my work. I am very hard-working and very eager to learn new technologies.</p>
-
-                    <Button link="/contacts" text="Hire me"/>
                 </div>
             </div>
         </div>

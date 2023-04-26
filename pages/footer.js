@@ -7,10 +7,10 @@ const Footer = () => {
         <div className='text-center '>
             <ul>
                 <li><h3>Quick Links</h3></li>
-                <li><Link href="/" className='my-4'>Home</Link></li>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/projects">Projects</Link></li>
-                <li><Link href="/contacts">Contact</Link></li>
+                <li><Link href="#" className='my-4'>Home</Link></li>
+                <li><Link href="#about">About</Link></li>
+                <li><Link href="#projects">Projects</Link></li>
+                <li><Link href="#contacts">Contact</Link></li>
                 <li><p className='mt-4 font-thin'>&copy; 2023|Sourav Kumar Agarwal</p></li>
             </ul>
         </div>

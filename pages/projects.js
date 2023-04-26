@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <section className='container mx-auto py-10 px-4'>
+    <section className='container mx-auto py-10 px-4' id="projects">
         <Heading title="My Projects" />
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6 '>
             <div className='shadow-lg flex flex-col rounded-[10px] justify-center align-center gap-4 px-8 py-10 bg-[#64748b] text-[#f4f4f5]'>
