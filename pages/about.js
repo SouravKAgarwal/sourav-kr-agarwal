@@ -19,7 +19,7 @@ const About = () => {
                 <Image className='rounded-[8px]' src="/aboutme.jpg" width={450} height={550} alt="" />
             </div>
             <div>
-                <div className='flex item-center md:w-[450px] justify-around mt-4'>
+                <div className='flex item-center w-[300px] md:w-[450px] justify-around mt-4'>
                     <div className='flex flex-col gap-[4px]'>
                         <div className='flex my-2 gap-4 items-center font-medium'>
                             <FiSmartphone className='text-blue text-[22px]'/>
