@@ -8,7 +8,7 @@ const Navbar = ({toggleSideBar}) => {
     <div className='bg-black fixed top-0 w-[100%] z-10'>
       <div className='container flex mx-auto justify-between justify-items-end items-center py-4'>
         <div className='text-[22px] text-[#f8fafc] px-4 mx-0'>Sourav Kumar Agarwal</div>
-          <div className='hidden md:mx-[10rem] md:justify-around md:items-center md:flex gap-10'>
+          <div className='hidden md:mx-[19rem] md:justify-between md:items-center md:flex gap-11'>
             <Link href="#">
               <div className='text-[#f8fafc] hover:text-[#d4d4d8]'>Home</div>
             </Link>
