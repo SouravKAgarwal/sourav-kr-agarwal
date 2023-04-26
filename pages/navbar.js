@@ -23,7 +23,7 @@ const Navbar = ({toggleSideBar}) => {
             </Link>
         </div>
 
-        <div className='md:hidden flex ml-[9rem] justify-flex-end items-end text-[24px] text-[#f8fafc] pr-4 hover:cursor-pointer' onClick={toggleSideBar}>
+        <div className='md:hidden flex ml-[6rem] justify-flex-end items-end text-[24px] text-[#f8fafc] pr-4 hover:cursor-pointer' onClick={toggleSideBar}>
           <FiMenu/>
         </div>
       </div>
