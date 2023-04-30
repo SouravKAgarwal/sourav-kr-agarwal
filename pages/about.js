@@ -55,20 +55,6 @@ const About = () => {
 
                 </div>
 
-                <div className='flex flex-cols-2 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]'>
-                    <div className='flex gap-4 items-center font-medium'>
-                        <FaGithub className='text-[black] text-[24px]'/>
-                        <Link href="https://github.com/SouravKAgarwal" target='_blank'>
-                        Github
-                        </Link>
-                    </div>
-                    <div className='flex gap-4 items-center font-medium'>
-                        <FaLinkedin className='text-[#1e3a8a] text-[24px]'/>
-                        <Link href="https://www.linkedin.com/in/sourav-kumar-agarwal09/" target='_blank'>
-                        LinkedIn
-                        </Link>
-                    </div>
-                </div>
                 <div className='flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]'>
                     <div className='flex gap-4 items-center text-[20px] font-medium'>
                         <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>

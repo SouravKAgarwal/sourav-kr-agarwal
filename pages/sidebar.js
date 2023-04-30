@@ -2,6 +2,8 @@ import React from 'react'
 import Link from "next/link"
 import {RiCloseFill} from "react-icons/ri"
 import { HiOutlineDownload } from 'react-icons/hi'
+import {FaGithub, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+
 
 const Sidebar = ({isOpen, toggleSideBar}) => {
   return (
@@ -19,6 +21,21 @@ const Sidebar = ({isOpen, toggleSideBar}) => {
           Download CV
           <HiOutlineDownload />
         </Link>
+        <div className='flex justify-between items-center'>
+          <div className='flex  gap-[2rem] items-center font-medium'>
+              <Link href="https://github.com/SouravKAgarwal" target='_blank'>
+                <FaGithub className='text-[white] text-[24px]'/>
+              </Link>
+
+              <Link href="https://www.linkedin.com/in/sourav-kumar-agarwal09/" target='_blank'>
+                <FaLinkedinIn className='text-blue-600 text-[24px]'/>
+              </Link>
+
+              <Link href="https://instagram.com/_souravagarwal_09?igshid=Yjk4NWM2ZWVkMw==" target='_blank'>
+                <FaInstagram className='text-pink-600 text-[24px]'/>
+              </Link>
+          </div>
+        </div>
       </div>
     </div>
   )
