@@ -23,8 +23,8 @@ const Navbar = ({toggleSideBar}) => {
             </Link>
         </div>
 
-        <div className='hidden md: mx-4 md:justify-between md:items-center md:flex'>
-          <div className='flex  gap-[2rem] items-center font-medium'>
+        <div className='hidden md:justify-between md:items-center md:flex'>
+          <div className='flex gap-[2rem] items-center font-medium'>
               <Link href="https://github.com/SouravKAgarwal" target='_blank'>
                 <FaGithub className='text-[white] text-[24px]'/>
               </Link>
