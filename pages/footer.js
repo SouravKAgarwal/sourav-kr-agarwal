@@ -5,7 +5,7 @@ import {FaGithub, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 const Footer = () => {
   return (
     <div>
-      <div className='bg-[url("/footer.jpg")] bg-cover bg-center h-[140px] md:text-[16px] text-white grid md:grid-cols-2 justify-center items-center mt-6'>
+      <div className='bg-[url("/footer.jpg")] bg-cover bg-center h-[200px] md:text-[16px] text-white grid md:grid-cols-2 justify-center items-center mt-6'>
           <div className='flex flex-cols-3 justify-center gap-[1rem] items-center font-medium'>
             <h3>Quick Links</h3>
             <Link href="#" className='my-2'>Home</Link>
