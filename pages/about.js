@@ -16,7 +16,7 @@ const About = () => {
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
-                <Image className='rounded-[8px]' src="/aboutme.jpg" width={600} height={750} alt="" />
+                <Image className='rounded-[8px]' src="/aboutme.jpg" width={600} height={600} alt="" />
             </div>
             <div>
                 <div className='flex item-center w-[370px] md:w-[450px] md:mx-[120px] justify-around mt-4'>
@@ -57,7 +57,7 @@ const About = () => {
 
                 <div className='flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]'>
                     <div className='flex gap-4 items-center text-[20px] font-medium'>
-                        <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download CV<HiOutlineDownload /></Link>
+                        <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download Resume<HiOutlineDownload /></Link>
                     </div>
                 </div>
                 <div className='max-w-[600px] md:mx-[22px]'>

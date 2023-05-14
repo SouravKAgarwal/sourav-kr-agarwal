@@ -33,12 +33,12 @@ const Projects = () => {
             </div>
             <div className='shadow-lg flex flex-col gap-4 rounded-[10px] justify-center align-center px-8 py-10 bg-[#64748b] text-[#f4f4f5]'>
                 <GrProjects className='text-[#ef4444] text-[28px]' />
-                <h2 className='font-medium text-[28px]'>QR-Generator</h2>
-                <p className='text-[16px] max-height-[170px] mb-4'>It is a utility which can be used to generate QR's for links,text,etc for handy sharing. It is very reliable, fast and easy to use. It can generate QR's for any text or URL's at a click.</p>
+                <h2 className='font-medium text-[28px]'>MovieMarvel</h2>
+                <p className='text-[16px] max-height-[170px] mb-4'>A movie suggestion and info app designed for quick information regarding latest trending and popular Movies and TV Shows. Find your show and grab a popcorn to enjoy...</p>
                 <div className='mt-4'>
-                    <Image className=' justify-center align-center rounded-[8px]' src="/qr.jpg" width={500} height={250} alt=""/>
+                    <Image className=' justify-center align-center rounded-[8px]' src="/movie_app.jpg" width={500} height={250} alt=""/>
                 </div>
-                <Button link ="#" text="Click to view" />
+                <Button link ="https://skatv.vercel.app" text="Click to view" />
             </div>
         </div>
         <Heading title="Skills" />
