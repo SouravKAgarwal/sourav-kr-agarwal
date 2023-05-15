@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Heading from "./heading";
+import Heading from "./Heading";
 
 const Contacts = () => {
   const [userData, setUserData] = useState({

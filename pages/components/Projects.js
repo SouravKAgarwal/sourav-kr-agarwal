@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from './heading'
+import Heading from './Heading'
 import {GrProjects} from "react-icons/gr"
-import Button from './button'
+import Button from './Button'
 import Image from 'next/image'
 
 const Projects = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from "typewriter-effect"
-import Button from "./button"
+import Button from "./Button"
 
 const Hero = () => {
   return (
