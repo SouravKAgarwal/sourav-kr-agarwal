@@ -5,7 +5,7 @@ import Projects from "./components/Projects"
 import Contacts from "./components/Contacts"
 import { useState } from "react";
 import Navbar from './components/Navbar'
-import Footer from './components/footer/Footer'
+import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
 
 
