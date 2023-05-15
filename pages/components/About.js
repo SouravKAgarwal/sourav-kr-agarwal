@@ -16,7 +16,7 @@ const About = () => {
         <Heading title="About Me" />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[5px]'>
             <div>
-                <Image className='rounded-[8px]' src="/aboutme.jpg" width={600} height={600} alt="" />
+                <Image className='rounded-[8px]' src="/aboutme.jpg" width={500} height={500} alt="" />
             </div>
             <div>
                 <div className='flex item-center w-[370px] md:w-[450px] md:mx-[120px] justify-around mt-4'>

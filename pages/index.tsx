@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Hero from "./hero"
-import About from "./about"
-import Projects from "./projects" 
-import Contacts from "./contacts"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Projects from "./components/Projects" 
+import Contacts from "./components/Contacts"
 import { useState } from "react";
-import Navbar from './navbar'
-import Footer from './footer'
-import Sidebar from './sidebar'
+import Navbar from './components/Navbar'
+import Footer from './components/footer/Footer'
+import Sidebar from './components/Sidebar'
 
 
 export default function Home() {
