@@ -4,6 +4,7 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -29,11 +30,13 @@ const Footer = () => {
         Designed and Hosted by Sourav Kumar Agarwal
       </div> */}
       <div className="flex items-center justify-center gap-[10px]">
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.225em_#d4d4d8]"><Link href="https://github.com/SouravKAgarwal" target='_blank'><FaGithub className='text-[white] text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.100em_white]"><Link href="https://github.com/SouravKAgarwal" target='_blank'><FaGithub className='text-[white] text-[24px]'/></Link>
         </span>
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.225em_#d4d4d8]"><Link href="https://www.linkedin.com/in/sourav-kumar-agarwal09/" target='_blank'><FaLinkedinIn className='text-blue-600 text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.100em_blue]"><Link href="https://www.linkedin.com/in/souravkragarwal/" target='_blank'><FaLinkedinIn className='text-blue-600 text-[24px]'/></Link>
         </span>
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.225em_#d4d4d8]"><Link href="https://instagram.com/_souravagarwal_09?igshid=Yjk4NWM2ZWVkMw==" target='_blank'><FaInstagram className='text-pink-600 text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.100em_blue]"><Link href="https://www.twitter.com/SouravK_Agarwal" target='_blank'><FaTwitter className='text-blue-500 text-[24px]'/></Link>
+        </span>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.100em_pink]"><Link href="https://instagram.com/_souravagarwal_09?igshid=Yjk4NWM2ZWVkMw==" target='_blank'><FaInstagram className='text-pink-600 text-[24px]'/></Link>
         </span>
         {/* <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.225em_#d4d4d8]">
           <FaLinkedin />
