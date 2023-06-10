@@ -1,10 +1,9 @@
 import React from 'react'
 import Typewriter from "typewriter-effect"
-import Button from "./Button"
 
 const Hero = () => {
   return (
-    <div className='bg-[url("/sourav.jpg")] bg-scale-down md:bg-cover h-screen w-[76] bg-center bg-no-repeat flex items-center'>
+    <div className='bg-[url("/sourav.jpg")] bg-cover md:bg-cover h-screen w-[76] bg-center bg-no-repeat flex items-center'>
       <div className='container mx-auto px-4'>
         <div className='max-w-[500px] text-white flex flex-col gap-[40px]'>
           <div className='mt-80 ml-4 md:mt-auto'>
@@ -24,8 +23,7 @@ const Hero = () => {
           </div>
           <div className='bg-black h-[4px] w-[80px] ml-4'></div>
           <div className='text-[#fffbeb] ml-4'>
-            <p className='text-[20px]'>“The first step towards getting somewhere is to decide you’re not going to stay where you are.”</p>
-            <Button link="#about" text="Learn More..." />
+            <p className='text-[20px]'>“The first step towards getting somewhere is to decide you're not going to stay where you are.”</p>
           </div>
         </div>
       </div>
