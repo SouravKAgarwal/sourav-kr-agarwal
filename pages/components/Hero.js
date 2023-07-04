@@ -12,7 +12,8 @@ const Hero = () => {
               <Typewriter 
               options={{
                 strings:[
-                  "Frontend Developer"
+                  "Full Stack Developer",
+                  "MERN Stack Developer"
                 ],
                 changeDelay:3,
                 changeDeleteSpeed:2,

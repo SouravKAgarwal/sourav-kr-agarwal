@@ -23,10 +23,10 @@ export default function Home() {
       <meta name="This is a portfolio website designed for internship purposes." content="This contains a home page along with about me, my projects and contact page." />
       <link rel="icon" href="" />
     </Head>
-    <header>
+    {/* <header>
       <Navbar toggleSideBar={toggleSideBar}/>
       <Sidebar isOpen={isOpen} toggleSideBar={toggleSideBar} />
-    </header>
+    </header> */}
 
     <main>
       <Hero />

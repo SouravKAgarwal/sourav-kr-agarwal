@@ -41,10 +41,10 @@ const Projects = () => {
                 <Button link ="https://skatv.vercel.app" text="Click to view" />
             </div>
         </div>
-        <Heading title="Skills" />
-        <p className='text-[#0f172a] -mt-10 mb-10 text-[18px]'>Learning new skills everyday has been a part of my life now. I have learned many new things and continuing to do so. Below are some of the skills which I have gained till date and hope to make a command on it.</p>
+        {/* <Heading title="Skills" />
+        <p className='text-[#0f172a] -mt-10 mb-10 text-[18px]'>Learning new skills everyday has been a part of my life now. I have learned many new things and continuing to do so. Below are some of the skills which I have gained till date and hope to make a command on it.</p> */}
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        {/* <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             <div>
                 <p>React.js</p>
                 <div className='relative bg-slate-400 h-[4px] mt-2'>
@@ -75,7 +75,7 @@ const Projects = () => {
                     <div className='bg-[#f59e0b] absolute h-[4px] w-[70%]'></div>
                 </div>
             </div>
-        </div>
+        </div> */}
         
     </section>
   )

@@ -60,7 +60,7 @@ const Contacts = () => {
     }
   };
   return (
-    <section className="container mx-auto px-4 py-10" id="contacts">
+    <section className="container mx-auto w-[450px] px-4 py-10" id="contacts">
       <Heading title="Contact Me" />
 
       <form method="POST" className="flex flex-col gap-8">
@@ -86,7 +86,7 @@ const Contacts = () => {
           <input
             type="tel"
             name="phone"
-            placeholder="Phone Number"
+            placeholder="Phone"
             className="inputStyle"
             value={userData.phone}
             onChange={postUserData}

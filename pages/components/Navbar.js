@@ -5,7 +5,7 @@ import {FaGithub, FaInstagram, FaLinkedinIn , FaTwitter} from 'react-icons/fa'
 
 const Navbar = ({toggleSideBar}) => {
   return (
-    <div className='bg-[rgba(0,0,0,1)] md:bg-[rgba(0,0,0,0.7)] fixed top-0 w-[100%] z-10'>
+    <div className='bg-[rgba(0,0,0,1)] md:bg-[rgba(0,0,0,0.7)] fixed top-0 w-[100%] z-0'>
       <div className='container flex mx-auto justify-between justify-items-end items-center py-4'>
         <div className='text-[22px] text-[#f8fafc] px-4 mx-0'>Sourav Kumar Agarwal</div>
           <div className='hidden md:justify-between md:items-center md:flex gap-11'>
