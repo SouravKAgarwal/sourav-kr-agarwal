@@ -57,7 +57,7 @@ const Contacts = () => {
     }
   };
   return (
-    <section className="container mx-auto w-[400px] px-4 py-10" id="contacts">
+    <section className="container mx-auto w-[380px] md:w-[450px] px-4 py-10" id="contacts">
       <Heading title="Contact Me" />
 
       <form method="POST" className="flex flex-col gap-8">
