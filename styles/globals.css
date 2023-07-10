@@ -24,7 +24,7 @@
 }
 
 body {
-  @apply bg-gradient-to-r from-white to-gray-500;
+  @apply bg-gradient-to-r from-white to-gray-400;
 }
 
 h1,
@@ -66,7 +66,8 @@ button {
 
 @layer components {
   .btn {
-    @apply border border-[#6b7280] bg-black px-4 py-2 text-[#f3f4f6] rounded-[8px] inline-block font-medium  hover:bg-[#d4d4d8] hover:text-black transition duration-200;
+    /* @apply border border-[#6b7280] bg-black px-4 py-2 text-[#f3f4f6] rounded-[8px] inline-block font-medium  hover:bg-[#57575e] hover:text-black transition duration-200; */
+    @apply flex border border-[#6b7280] px-4 py-2 text-[var(--black3)] rounded-[8px] items-center font-semibold hover:bg-[#57575e] hover:text-black transition duration-200;
   }
 }
 

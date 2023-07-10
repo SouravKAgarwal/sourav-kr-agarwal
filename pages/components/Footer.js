@@ -1,11 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,13 +25,31 @@ const Footer = () => {
         Designed and </> by Sourav Kumar Agarwal
       </div> */}
       <div className="flex items-center mt-10 justify-center gap-[10px]">
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_green]"><Link href="https://github.com/SouravKAgarwal" target='_blank'><FaGithub className='text-[white] text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_gray]">
+          <Link href="https://github.com/SouravKAgarwal" target="_blank">
+            <FaGithub className="text-[white] text-[24px]" />
+          </Link>
         </span>
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_green]"><Link href="https://www.linkedin.com/in/souravkragarwal/" target='_blank'><FaLinkedinIn className='text-blue-600 text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_gray]">
+          <Link
+            href="https://www.linkedin.com/in/souravkragarwal/"
+            target="_blank"
+          >
+            <FaLinkedinIn className="text-blue-600 text-[24px]" />
+          </Link>
         </span>
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_green]"><Link href="https://www.twitter.com/SouravK_Agarwal" target='_blank'><FaTwitter className='text-blue-500 text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_gray]">
+          <Link href="https://www.twitter.com/SouravK_Agarwal" target="_blank">
+            <FaTwitter className="text-blue-500 text-[24px]" />
+          </Link>
         </span>
-        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_green]"><Link href="https://instagram.com/_souravagarwal_09?igshid=Yjk4NWM2ZWVkMw==" target='_blank'><FaInstagram className='text-pink-600 text-[24px]'/></Link>
+        <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.180em_gray]">
+          <Link
+            href="https://instagram.com/_souravk_agarwal?igshid=Yjk4NWM2ZWVkMw=="
+            target="_blank"
+          >
+            <FaInstagram className="text-pink-600 text-[24px]" />
+          </Link>
         </span>
         {/* <span className="w-[50px] h-[50px] rounded-[50%] bg-[var(--black3)] flex items-center justify-center ease-out duration-300 hover:shadow-[0_0_0_0.225em_#d4d4d8]">
           <FaLinkedin />
@@ -44,7 +57,9 @@ const Footer = () => {
       </div>
       <ul className="flex items-center justify-center mb-10 gap-[15px] mt-[20px] md:mt-[30px] md:gap-[30px]">
         <li className="text-[12px] md:text-[16px]">
-          <strong>Designed and &lt;/&gt; with &#129293;- Sourav Kumar Agarwal</strong>
+          <strong>
+            Designed and &lt;/&gt; with &#129293;- Sourav Kumar Agarwal
+          </strong>
         </li>
       </ul>
     </div>
