@@ -12,6 +12,7 @@
   --pink: #da2f68;
   --orange: #f89e00;
   --gradient: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  --button-gradient: ;
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -24,6 +25,10 @@
 }
 
 body {
+  @apply bg-gradient-to-r from-white to-gray-400;
+}
+
+.body {
   @apply bg-gradient-to-r from-white to-gray-400;
 }
 
@@ -66,8 +71,7 @@ button {
 
 @layer components {
   .btn {
-    /* @apply border border-[#6b7280] bg-black px-4 py-2 text-[#f3f4f6] rounded-[8px] inline-block font-medium  hover:bg-[#57575e] hover:text-black transition duration-200; */
-    @apply flex border border-[#6b7280] px-4 py-2 text-[var(--black3)] rounded-[8px] items-center font-semibold hover:bg-[#57575e] hover:text-black transition duration-200;
+    @apply inline-block border border-[#6b7280] bg-[var(--button-gradient)] px-4 py-2 text-[var(--black3)] rounded-[8px] items-center font-semibold hover:bg-[#57575e] hover:text-black transition duration-200;
   }
 }
 

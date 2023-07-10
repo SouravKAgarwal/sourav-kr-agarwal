@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Heading from "./Heading";
+import Button from "./Button";
 
 const Contacts = () => {
   const [userData, setUserData] = useState({
@@ -9,55 +10,55 @@ const Contacts = () => {
     message: "",
   });
 
+  let name, value;
+  const postUserData = (event) => {
+    name = event.target.name;
+    value = event.target.value;
 
-  let name,value;
-  const postUserData = (event)=>{
-    name=event.target.name;
-    value=event.target.value;
-
-    setUserData({...userData,[name]:value});
+    setUserData({ ...userData, [name]: value });
   };
 
   // connect with firebase
-  const submitData = async(event)=>{
+  const submitData = async (event) => {
     event.preventDefault();
-    const {name, email, subject, message} = userData;
+    const { name, email, subject, message } = userData;
 
-    if(name && email && subject && message){
-    const res = await fetch(
-      'https://portfoliowebsite-20877-default-rtdb.firebaseio.com/userDataRecords.json',{
-        method: "POST",
-        headers:{
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          name,
-          email, 
-          subject, 
-          message,
-        }),
-      }
+    if (name && email && subject && message) {
+      const res = await fetch(
+        "https://portfoliowebsite-20877-default-rtdb.firebaseio.com/userDataRecords.json",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            subject,
+            message,
+          }),
+        }
       );
-      if(res){
+      if (res) {
         setUserData({
           name: "",
           email: "",
           subject: "",
           message: "",
-      });
-      alert("Your message is recieved successfully");
-      }
-      else{
+        });
+        alert("Your message is recieved successfully");
+      } else {
         alert("Please fill the form again!");
       }
-    }
-
-    else{
+    } else {
       alert("Please fill the form!");
     }
   };
   return (
-    <section className="container mx-auto w-[380px] md:w-[450px] px-4 py-10" id="contacts">
+    <section
+      className="container mx-auto w-[380px] md:w-[450px] px-4 py-10"
+      id="contacts"
+    >
       <Heading title="Contact Me" />
 
       <form method="POST" className="flex flex-col gap-8">
@@ -102,7 +103,7 @@ const Contacts = () => {
           required
         />
         <textarea
-          rows="6"
+          rows="4"
           name="message"
           placeholder="Message"
           className="inputStyle"
@@ -112,9 +113,12 @@ const Contacts = () => {
         ></textarea>
 
         <div>
-          <button type="submit" className="btn" onClick={submitData}>
-            Send Message
-          </button>
+          <Button
+            type="submit"
+            text="Send Message"
+            className="btn body"
+            onClick={submitData}
+          />
         </div>
       </form>
     </section>

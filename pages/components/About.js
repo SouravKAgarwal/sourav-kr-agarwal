@@ -5,8 +5,9 @@ import { FaBook } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 import { GrMail } from "react-icons/gr";
 import { ImLocation } from "react-icons/im";
-import Link from "next/link";
+import Button from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -61,22 +62,18 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex flex-col mt-10 text-[20px] place-items-center">
-            <Link
-              href="Resume.pdf"
-              download
-              className="btn"
-            >
-              Resume
-              <HiOutlineDownload />
-            </Link>
+          <div className="flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]">
+            <div className="flex gap-4 items-center text-[20px] font-medium">
+              <Link
+                href="Resume.pdf"
+                download
+                className="btn flex body"
+              >
+                Download Resume
+                <HiOutlineDownload />
+              </Link>
+            </div>
           </div>
-
-          {/* <div className='flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]'>
-                    <div className='flex gap-4 items-center text-[20px] font-medium'>
-                        <Link href='Resume.pdf' download className='btn flex border border-[#6b7280] px-4 py-1 text-[#f3f4f6] rounded-[8px] items-center gap-2 hover:bg-[#d4d4d8] hover:text-black transition duration-200'>Download Resume<HiOutlineDownload /></Link>
-                    </div>
-                </div> */}
           <div className="max-w-[600px] md:mx-[22px]">
             <h2 className="font-bold mt-12 mb-10">
               I'm Sourav and FrontEnd Developer
