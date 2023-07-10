@@ -5,7 +5,6 @@ const Contacts = () => {
   const [userData, setUserData] = useState({
     name: "",
     email: "",
-    phone: "",
     subject: "",
     message: "",
   });
@@ -22,9 +21,9 @@ const Contacts = () => {
   // connect with firebase
   const submitData = async(event)=>{
     event.preventDefault();
-    const {name, email, phone, subject, message} = userData;
+    const {name, email, subject, message} = userData;
 
-    if(name && email && phone && subject && message){
+    if(name && email && subject && message){
     const res = await fetch(
       'https://portfoliowebsite-20877-default-rtdb.firebaseio.com/userDataRecords.json',{
         method: "POST",
@@ -34,7 +33,6 @@ const Contacts = () => {
         body: JSON.stringify({
           name,
           email, 
-          phone, 
           subject, 
           message,
         }),
@@ -44,7 +42,6 @@ const Contacts = () => {
         setUserData({
           name: "",
           email: "",
-          phone: "",
           subject: "",
           message: "",
       });
@@ -60,11 +57,11 @@ const Contacts = () => {
     }
   };
   return (
-    <section className="container mx-auto w-[450px] px-4 py-10" id="contacts">
+    <section className="container mx-auto w-[400px] px-4 py-10" id="contacts">
       <Heading title="Contact Me" />
 
       <form method="POST" className="flex flex-col gap-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           <input
             type="text"
             name="name"
@@ -83,7 +80,7 @@ const Contacts = () => {
             onChange={postUserData}
             required
           />
-          <input
+          {/* <input
             type="tel"
             name="phone"
             placeholder="Phone"
@@ -93,6 +90,7 @@ const Contacts = () => {
             pattern="+91-[0-9]{5}-[0-9]{5}"
             required
           />
+           */}
         </div>
         <input
           type="text"
