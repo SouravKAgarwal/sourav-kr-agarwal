@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className='bg-[url("/sourav.jpg")] bg-contain md:bg-cover h-screen w-[76] bg-center bg-no-repeat flex items-center'>
+    <div className='bg-[url("/sourav.jpg")] bg-cover md:bg-cover h-screen w-[76] bg-center bg-no-repeat flex items-center'>
       <div className="container mx-auto px-4">
         <div className="max-w-[500px] text-white flex flex-col gap-[40px]">
           <div className="mt-80 ml-4 md:mt-auto">
