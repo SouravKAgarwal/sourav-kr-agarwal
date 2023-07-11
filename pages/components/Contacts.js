@@ -60,7 +60,7 @@ const Contacts = () => {
       id="contacts"
     >
       <Heading title="Contact Me" />
-      <div className="shadow-lg rounded-[10px] mt-[-30px] justify-center align-center gap-4 p-5 bg-blur-sm text-[#000]">
+      <div className="shadow-lg rounded-[10px] mt-[-30px] justify-center align-center gap-4 p-5 bg-blur-xl text-[#000]">
         <form method="POST" className="flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8">
             <input

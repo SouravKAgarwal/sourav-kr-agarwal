@@ -11,19 +11,17 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="container mx-auto w-screen px-4 py-10" id="about">
-      <div className="shadow-lg rounded-[10px] justify-center align-center gap-4 px-8 py-5 bg-gray-200 text-[#000]">
+    <section className="container mx-auto w-screen mt-12 px-4 py-5" id="about">
+      <div className="shadow-lg rounded-[10px] md:w-[800px] justify-center align-center gap-4 px-8 py-5 bg-gray-200 text-[#000]">
         <div className="flex font-sans">
-          <div className="mt-4">
-            <Image
-              className="rounded-[80em]"
+          <div className="mt-8 w-[500px] md:w-[500px] flex align-items-center justify-center">
+            <img
+              className="rounded-[5px] ring-4 ring-black"
               src="/aboutme.jpg"
-              width={300}
-              height={600}
               alt=""
             />
           </div>
-          <form className="flex-auto p-6">
+          <form className="flex-auto ml-12">
             <div className="flex flex-wrap">
               <Heading title="About Me" />
 
