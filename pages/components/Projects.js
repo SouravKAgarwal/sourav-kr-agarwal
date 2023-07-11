@@ -16,8 +16,8 @@ const Projects = () => {
               <Image
                 className="border-black rounded-[5px]"
                 src="/qr.jpg"
-                width={500}
-                height={250}
+                width={1000}
+                height={500}
                 alt=""
               />
             </div>
@@ -61,8 +61,8 @@ const Projects = () => {
               <Image
                 className="border-black rounded-[5px]"
                 src="/tictactoe.jpg"
-                width={500}
-                height={250}
+                width={1000}
+                height={500}
                 alt=""
               />
             </div>

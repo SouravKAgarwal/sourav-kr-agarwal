@@ -1,9 +1,9 @@
 import React from "react";
 import Heading from "./Heading";
 import { FiSmartphone } from "react-icons/fi";
-import { FaBook } from "react-icons/fa";
+import { FaBook, FaFilePdf } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
-import { GrMail } from "react-icons/gr";
+import { GrDocumentPdf, GrGithub, GrMail } from "react-icons/gr";
 import { ImLocation } from "react-icons/im";
 import Button from "./Button";
 import Image from "next/image";
@@ -12,17 +12,57 @@ import Link from "next/link";
 const About = () => {
   return (
     <section className="container mx-auto w-screen px-4 py-10" id="about">
-      <Heading title="About Me" />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[5px]">
-        <div>
-          <Image
-            className="rounded-[8px]"
-            src="/aboutme.jpg"
-            width={500}
-            height={500}
-            alt=""
-          />
+      <div className="shadow-lg rounded-[10px] justify-center align-center gap-4 px-8 py-5 bg-gray-200 text-[#000]">
+        <div className="flex font-sans">
+          <div className="mt-4">
+            <Image
+              className="rounded-[80em]"
+              src="/aboutme.jpg"
+              width={300}
+              height={600}
+              alt=""
+            />
+          </div>
+          <form className="flex-auto p-6">
+            <div className="flex flex-wrap">
+              <Heading title="About Me" />
+
+              {/* <Link
+                  href=""
+                  className="w-full flex-none text-sm font-medium text-slate-700 mt-2"
+                >
+                  Github Repo
+                </Link> */}
+            </div>
+
+            <div className="flex space-x-4 mb-6 text-sm font-medium"></div>
+
+            <p className="text-sm text-slate-700">
+              Hi! My name is Sourav Kumar Agarwal. I'm a Web Developer, and I'm
+              very passionate and dedicated toward my work. I am very
+              hard-working and very eager to learn new technologies.
+            </p>
+            <div className="flex flex-col-2 gap-4 items-center text-[14px] font-medium">
+              <Link href="Resume.pdf" download className="btn mt-10 flex body">
+                <FaFilePdf className="text-red-700" />
+                Resume
+                <HiOutlineDownload />
+              </Link>
+              <div className="flex-auto flex space-x-4">
+                <Link
+                  className="btn flex body mt-10 ]"
+                  href="https://github.com/SouravKAgarwal"
+                  target="_blank"
+                >
+                  <GrGithub className="text-black text-[20px]" /> Github
+                </Link>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>
+      {/* <div className="grid grid-cols-2 gap-[5px]">
+        
         <div>
           <div className="flex item-center w-[370px] md:w-[450px] md:mx-[120px] justify-around mt-4">
             <div className="flex flex-col gap-[4px]">
@@ -61,31 +101,8 @@ const About = () => {
               <div>aggarwalsaurav948@gmail.com</div>
             </div>
           </div>
-
-          <div className="flex flex-cols-1 justify-center items-center w-[370px] md:w-[450px] md:mx-[120px] mt-[30px] gap-[70px]">
-            <div className="flex gap-4 items-center text-[20px] font-medium">
-              <Link
-                href="Resume.pdf"
-                download
-                className="btn flex body"
-              >
-                Download Resume
-                <HiOutlineDownload />
-              </Link>
-            </div>
-          </div>
-          <div className="max-w-[600px] md:mx-[22px]">
-            <h2 className="font-bold mt-12 mb-10">
-              I'm Sourav and FrontEnd Developer
-            </h2>
-            <p className="text-[#0f172a]">
-              Hi! My name is Sourav Kumar Agarwal. I'm a Web Developer, and I'm
-              very passionate and dedicated toward my work. I am very
-              hard-working and very eager to learn new technologies.
-            </p>
-          </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -60,28 +60,28 @@ const Contacts = () => {
       id="contacts"
     >
       <Heading title="Contact Me" />
-
-      <form method="POST" className="flex flex-col gap-8">
-        <div className="grid grid-cols-1 gap-8">
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            className="inputStyle"
-            value={userData.name}
-            onChange={postUserData}
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            className="inputStyle"
-            value={userData.email}
-            onChange={postUserData}
-            required
-          />
-          {/* <input
+      <div className="shadow-lg rounded-[10px] mt-[-30px] justify-center align-center gap-4 p-5 bg-blur-sm text-[#000]">
+        <form method="POST" className="flex flex-col gap-8">
+          <div className="grid grid-cols-1 gap-8">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              className="inputStyle"
+              value={userData.name}
+              onChange={postUserData}
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              className="inputStyle"
+              value={userData.email}
+              onChange={postUserData}
+              required
+            />
+            {/* <input
             type="tel"
             name="phone"
             placeholder="Phone"
@@ -92,35 +92,36 @@ const Contacts = () => {
             required
           />
            */}
-        </div>
-        <input
-          type="text"
-          name="subject"
-          placeholder="Subject"
-          className="inputStyle"
-          value={userData.subject}
-          onChange={postUserData}
-          required
-        />
-        <textarea
-          rows="4"
-          name="message"
-          placeholder="Message"
-          className="inputStyle"
-          value={userData.message}
-          onChange={postUserData}
-          required
-        ></textarea>
-
-        <div>
-          <Button
-            type="submit"
-            text="Send Message"
-            className="btn body"
-            onClick={submitData}
+          </div>
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            className="inputStyle"
+            value={userData.subject}
+            onChange={postUserData}
+            required
           />
-        </div>
-      </form>
+          <textarea
+            rows="4"
+            name="message"
+            placeholder="Message"
+            className="inputStyle"
+            value={userData.message}
+            onChange={postUserData}
+            required
+          ></textarea>
+
+          <div>
+            <Button
+              type="submit"
+              text="Send Message"
+              className="btn body"
+              onClick={submitData}
+            />
+          </div>
+        </form>
+      </div>
     </section>
   );
 };

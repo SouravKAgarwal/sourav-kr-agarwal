@@ -25,13 +25,16 @@
 }
 
 body {
-  @apply bg-gradient-to-r from-white to-gray-400;
+  @apply bg-[url("/Background.png")];
 }
 
 .body {
   @apply bg-gradient-to-r from-white to-gray-400;
 }
 
+input,textarea{
+  @apply backdrop-blur-sm
+}
 h1,
 h2,
 h3,
